@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class main{
+
+    public static void main(String[] args){
+        Scanner scanner=new Scanner(System.in);
+        int capacity_of_ship=0;
+        int people=0;
+        int trips=0;
+        capacity_of_ship= scanner.nextInt();
+        people= scanner.nextInt();
+
+        trips = (people + capacity_of_ship -1)/ capacity_of_ship;
+      
+        
+
+        System.out.println(trips);
+
+
+
+
+    }
+
+
+}
