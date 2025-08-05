@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class main{
+    public static void main(String[] args){
+            Scanner scanner=new Scanner(System.in);
+        int r=0;
+        double area=0;
+        
+
+        r= scanner.nextInt();
+
+        area=Math.PI*r*r;
+       area= Math.round(area);
+        System.out.println((int)area);
+        
+        scanner.close();
+
+
+
+
+
+    }
+}
